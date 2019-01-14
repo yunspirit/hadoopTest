@@ -1,6 +1,5 @@
-package secondarysort;
+package mr.secondarysort;
 
-import org.apache.commons.lang.ObjectUtils;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.mapreduce.Reducer;

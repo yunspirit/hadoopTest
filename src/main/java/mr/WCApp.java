@@ -21,6 +21,7 @@ public class WCApp {
         Configuration conf = new Configuration();
 
         //使用本地`文件模式 `，覆盖配置文件中定义的模式
+        //如果打包成jar放到服务器上，注释掉
         conf.set("fs.defaultFS", "file:///");
 
         Job job = Job.getInstance(conf);

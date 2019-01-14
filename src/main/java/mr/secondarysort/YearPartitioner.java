@@ -1,4 +1,4 @@
-package secondarysort;
+package mr.secondarysort;
 
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.mapreduce.Partitioner;
