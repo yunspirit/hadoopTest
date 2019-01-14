@@ -1,4 +1,4 @@
-package mr.compress;
+package compress;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.IOUtils;
