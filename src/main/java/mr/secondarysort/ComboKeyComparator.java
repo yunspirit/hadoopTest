@@ -5,6 +5,7 @@ import org.apache.hadoop.io.WritableComparator;
 
 /**
  *ComboKeyComparator
+ *   明明Combkokey自己就可以比较，还需要自己写Comparator？
  */
 public class ComboKeyComparator extends WritableComparator {
 
