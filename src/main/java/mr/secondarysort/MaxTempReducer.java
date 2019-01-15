@@ -11,8 +11,9 @@ import java.io.IOException;
  */
 public class MaxTempReducer extends Reducer<ComboKey, NullWritable, IntWritable, IntWritable>{
 
-    /**
+    /**  进入reduce时候，已经是二次排序后，values第一个就是最高气温，不需要迭代，取出第一个即可
      */
+    @Override
     protected void reduce(ComboKey key, Iterable<NullWritable> values, Context context) throws IOException, InterruptedException {
         int year = key.getYear();
         int temp = key.getTemp();

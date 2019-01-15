@@ -12,10 +12,12 @@ import java.io.IOException;
  */
 public class MaxTempMapper extends Mapper<LongWritable, Text, ComboKey, NullWritable>{
 
+    @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
         String[] arr = line.split(" ");
 
+        //读取一行数据  包含年+温度
         ComboKey keyOut = new ComboKey();
         keyOut.setYear(Integer.parseInt(arr[0]));
         keyOut.setTemp(Integer.parseInt(arr[1]));

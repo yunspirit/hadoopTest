@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+
+
+<!--打包成jar放在服务器上运行  需要这个-->
+<configuration>
+    <property>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>s201</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+</configuration>
+

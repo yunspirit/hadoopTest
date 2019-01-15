@@ -12,6 +12,7 @@ public class ComboKeyComparator extends WritableComparator {
         super(ComboKey.class, true);
     }
 
+    @Override
     public int compare(WritableComparable a, WritableComparable b) {
         ComboKey k1 = (ComboKey) a;
         ComboKey k2 = (ComboKey) b;

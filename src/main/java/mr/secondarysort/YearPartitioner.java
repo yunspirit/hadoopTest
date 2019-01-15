@@ -8,6 +8,15 @@ import org.apache.hadoop.mapreduce.Partitioner;
  */
 public class YearPartitioner extends Partitioner<ComboKey,NullWritable> {
 
+
+    /**
+     * @Description  //map的输出作为partition的输入
+     * @param key
+     * @param nullWritable
+     * @param numPartitions
+     * @return int
+    **/
+    @Override
     public int getPartition(ComboKey key, NullWritable nullWritable, int numPartitions) {
         int year = key.getYear();
         return year % numPartitions;

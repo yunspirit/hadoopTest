@@ -32,12 +32,13 @@ public class ComboKey implements WritableComparable<ComboKey> {
     /**
      * 对key进行比较实现
      */
+    @Override
     public int compareTo(ComboKey o) {
         int y0 = o.getYear();
         int t0 = o.getTemp() ;
         //年份相同(升序)
         if(year == y0){
-            //气温降序
+            //气温降序 temp-to表示升序
             return -(temp - t0) ;
         }
         else{
@@ -46,8 +47,9 @@ public class ComboKey implements WritableComparable<ComboKey> {
     }
 
     /**
-     * 串行化过程
+     * 串行化过程   序列化机制
      */
+    @Override
     public void write(DataOutput out) throws IOException {
         //年份
         out.writeInt(year);
@@ -55,6 +57,12 @@ public class ComboKey implements WritableComparable<ComboKey> {
         out.writeInt(temp);
     }
 
+    /**
+     * @Description    反序列化
+     * @param in
+     * @return void
+    **/
+    @Override
     public void readFields(DataInput in) throws IOException {
         year = in.readInt();
         temp = in.readInt();
