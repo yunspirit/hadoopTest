@@ -6,6 +6,10 @@
 <configuration>
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://s201:8020/</value>
+        <!--分布式环境-->
+        <!--<value>hdfs://s201:8020/</value>-->
+
+        <!--本机环境-->
+        <value>file:///</value>
     </property>
 </configuration>
