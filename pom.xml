@@ -6,7 +6,10 @@
     <groupId>com.it18zhang</groupId>
     <artifactId>HdfsDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>learn-jdbc</module>
+    </modules>
+    <packaging>pom</packaging>
     <build>
         <plugins>
             <plugin>
