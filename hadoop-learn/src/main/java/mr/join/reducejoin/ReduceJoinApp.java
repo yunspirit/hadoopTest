@@ -47,6 +47,8 @@ public class ReduceJoinApp {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(NullWritable.class);         //
 
+        //设置各种排序对比
+
         //设置分区类
         job.setPartitionerClass(CIDPartitioner.class);
         //设置分组对比器
@@ -54,6 +56,7 @@ public class ReduceJoinApp {
         //设置排序对比器
         job.setSortComparatorClass(ComboKey2Comparator.class);
         job.setNumReduceTasks(2);                           //reduce个数
+
         job.waitForCompletion(true);
     }
 }
