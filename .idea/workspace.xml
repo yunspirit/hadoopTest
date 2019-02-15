@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/reducejoin/ComboKey2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HiveDemo/HiveDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcDemo/JdbcDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop-learn/hadooplearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-learn/hadooplearn.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hadoop-learn/target/" />
@@ -33,9 +33,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoop-learn/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/reducejoin/ComboKey2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -46,9 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/allsort/ComboKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/allsort/MaxTempMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/allsort/MaxTempReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/mr/MaxTempApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/mr/maxtemp/MaxTempMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mr/maxtemp/MaxTempReducer.java" />
@@ -97,6 +128,9 @@
         <option value="$PROJECT_DIR$/JdbcDemo/src/test/java/com/it18zhang/jdbcdemo/test/TestCRUD.java" />
         <option value="$PROJECT_DIR$/JdbcDemo/src/test/java/com/it18zhang/jdbcdemo/test/TestIsolationLevel.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinMapper.java" />
+        <option value="$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinApp.java" />
+        <option value="$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/reducejoin/ComboKey2.java" />
       </list>
     </option>
   </component>
@@ -141,12 +175,58 @@
             <path>
               <item name="HdfsDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoopTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HiveDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HdfsDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoopTest" type="462c0819:PsiDirectoryNode" />
-              <item name="JdbcDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HdfsDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoopTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HdfsDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoopTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="join" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HdfsDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoopTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="join" type="462c0819:PsiDirectoryNode" />
+              <item name="mapjoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HdfsDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoopTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="join" type="462c0819:PsiDirectoryNode" />
+              <item name="reducejoin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,11 +238,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550200033024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550200673244" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -228,16 +308,17 @@
       <workItem from="1547557230868" duration="11016000" />
       <workItem from="1550044592996" duration="2405000" />
       <workItem from="1550067764473" duration="1724000" />
+      <workItem from="1550200588063" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32498000" />
+    <option name="totallyTimeSpent" value="33168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26680973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -254,8 +335,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18587361" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22428748" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.22428748" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.22428748" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -312,89 +393,20 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/skew1/stage3/WCSkewMapper3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/skew1/Stage2/WCSkewApp2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/skew/WCSkewApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/skew1/stage3/WCSkewApp3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/skew/WCSkewMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCMapMapper1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCMapMapper2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCChainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCReduceMapper1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/skew1/stage3/WCSkewApp3.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/skew/WCSkewMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCReducer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCMapMapper1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCMapMapper2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCChainApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/chain/WCReduceMapper1.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-annotations/2.7.3/hadoop-annotations-2.7.3.jar!/org/apache/hadoop/classification/InterfaceAudience.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -437,34 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/WCMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/WCMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/MyDBWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/WCReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/WCMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/WCMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/MyDBWritable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/WCReducer.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/io/NullWritable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -472,34 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/WCReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/WCApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/yarn-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/WCReducer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/read/WCApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/yarn-site.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/lib/db/DBOutputFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -514,30 +478,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/MyDBWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/WCReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/MyDBWritable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/WCReducer.java" />
     <entry file="file://$PROJECT_DIR$/../Downloads/03-大数据离线计算hadoop2.7/Hadoop-第08天3.16/HdfsDemo/src/main/java/com/it18zhang/hdfs/mr/mysql/WCReducer.java" />
     <entry file="file://$PROJECT_DIR$/../Downloads/03-大数据离线计算hadoop2.7/Hadoop-第08天3.16/HdfsDemo/src/main/java/com/it18zhang/hdfs/mr/mysql/WCApp.java" />
     <entry file="file://$PROJECT_DIR$/learn-jdbc/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/WCApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/mysql/write/WCApp.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/net/DNSToSwitchMapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -545,13 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rackaware/MyRackAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rackaware/MyRackAware.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -566,16 +506,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop-test/src/main/java/mr/join/ComboKey2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-test/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/hadoop-test/src/main/java/mr/join/ComboKey2.java" />
     <entry file="file://$PROJECT_DIR$/JdbcDemo/src/main/java/com/it18zhang/jdbcdemo/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -604,14 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HiveDemo/JdbcDemo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HiveDemo/JdbcDemo.iml" />
     <entry file="file://$PROJECT_DIR$/HiveDemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -626,11 +551,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/hadooplearn.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-learn/hadooplearn.iml" />
+    <entry file="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml" />
     <entry file="file://$PROJECT_DIR$/hadoop-learn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/mapjoin/MapJoinMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/mr/join/reducejoin/ComboKey2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
