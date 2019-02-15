@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HdfsDemo.iml" filepath="$PROJECT_DIR$/HdfsDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hadoop-learn/hadooplearn.iml" filepath="$PROJECT_DIR$/hadoop-learn/hadooplearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml" filepath="$PROJECT_DIR$/HiveDemo/HiveDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JdbcDemo/JdbcDemo.iml" filepath="$PROJECT_DIR$/JdbcDemo/JdbcDemo.iml" />
     </modules>
   </component>
 </project>
