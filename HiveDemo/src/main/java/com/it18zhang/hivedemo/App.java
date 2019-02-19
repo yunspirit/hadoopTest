@@ -11,7 +11,10 @@ import java.sql.Statement;
 public class App {
     public static void main(String[] args) throws  Exception {
         Class.forName("org.apache.hive.jdbc.HiveDriver");
-        Connection conn = DriverManager.getConnection("jdbc:hive2://192.168.231.201:10000/mydb2");
+
+        Connection conn = DriverManager.getConnection("jdbc:hive2://203.195.230.38:10000/mydb2");
+
+        //Connection conn = DriverManager.getConnection("jdbc:hive2://192.168.231.201:10000/mydb2");
         Statement st = conn.createStatement();
         ResultSet rs = st.executeQuery("select id , name ,age from t");
         while(rs.next()){
