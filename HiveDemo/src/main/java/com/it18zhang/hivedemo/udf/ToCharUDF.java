@@ -22,6 +22,7 @@ public class ToCharUDF extends GenericUDF {
         return null;
     }
 
+    //时间转换为字符串
     public Object evaluate(DeferredObject[] args) throws HiveException {
         //有参数
         if(args != null && args.length != 0){

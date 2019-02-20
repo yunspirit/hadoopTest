@@ -22,10 +22,12 @@ public class ToDateUDF extends GenericUDF {
         return null;
     }
 
+    //解析字符串为时间
     public Object evaluate(DeferredObject[] args) throws HiveException {
         //有参数
         if(args != null && args.length != 0){
             //指定日志对象的格式化串
+            //只有1个参数
             if(args.length == 1){
                 SimpleDateFormat sdf = new SimpleDateFormat();
                 sdf.applyPattern("yyyy/MM/dd hh:mm:ss");
@@ -46,7 +48,7 @@ public class ToDateUDF extends GenericUDF {
                 }
             }
         }
-        //无参,返回系统时间对象
+          //无参,返回系统时间对象
         else{
             return new Date();
         }
