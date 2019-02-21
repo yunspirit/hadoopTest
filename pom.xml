@@ -10,6 +10,7 @@
         <module>JdbcDemo</module>
         <module>HiveDemo</module>
         <module>hadoop-learn</module>
+        <module>AvroDemo</module>
     </modules>
     <packaging>pom</packaging>
     <build>
