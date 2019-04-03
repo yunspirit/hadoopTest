@@ -11,6 +11,7 @@
         <module>HiveDemo</module>
         <module>hadoop-learn</module>
         <module>AvroDemo</module>
+        <module>HbaseDemo</module>
     </modules>
     <packaging>pom</packaging>
     <build>
