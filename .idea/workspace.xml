@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_core_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_core_1_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HiveDemo/src/main/java/com/it18zhang/hivedemo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/HiveDemo/src/main/java/com/it18zhang/hivedemo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HbaseDemo/src/test/java/com/it18zhang/hbasedemo/test/TestCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/HbaseDemo/src/test/java/com/it18zhang/hbasedemo/test/TestCRUD.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,6 +192,7 @@
       <workItem from="1572105556787" duration="79000" />
       <workItem from="1572106670872" duration="700000" />
       <workItem from="1572107554191" duration="9000" />
+      <workItem from="1573981797367" duration="3245000" />
     </task>
     <servers />
   </component>

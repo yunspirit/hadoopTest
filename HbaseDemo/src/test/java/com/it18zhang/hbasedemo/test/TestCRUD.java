@@ -64,8 +64,9 @@ public class TestCRUD {
             //关闭写前日志
             put.setWriteToWAL(false);
             put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("id"),Bytes.toBytes(i));
-//            put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("name"),Bytes.toBytes("tom" + i));
-            put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("name"),Bytes.toBytes("tom" + format.format(i)));
+            put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("name"),Bytes.toBytes("tom" + i));
+//            保证数字按照标准，不足的前面补0
+//            put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("name"),Bytes.toBytes("tom" + format.format(i)));
 
             put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("age"),Bytes.toBytes(i % 100));
             table.put(put);
@@ -205,6 +206,7 @@ public class TestCRUD {
         TableName tname = TableName.valueOf("ns1:t1");
         Table table = conn.getTable(tname);
         Scan scan = new Scan();
+//        指定扫描的行
         scan.setStartRow(Bytes.toBytes("row5000"));
         scan.setStopRow(Bytes.toBytes("row8000"));
         ResultScanner rs = table.getScanner(scan);
