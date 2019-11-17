@@ -16,9 +16,11 @@ public class App {
 
         //Connection conn = DriverManager.getConnection("jdbc:hive2://192.168.231.201:10000/mydb2");
         Statement st = conn.createStatement();
-        ResultSet rs = st.executeQuery("select id , name ,age from t");
+//        ResultSet rs = st.executeQuery("select id , name ,age from t");
+        ResultSet rs = st.executeQuery("select id , name ,age from pot");
+
         while(rs.next()){
-            System.out.println(rs.getInt(1) + "," + rs.getString(2)) ;
+            System.out.println( rs.getInt(1) + "," + rs.getString(2)+ "," +  rs.getInt(3) ) ;
         }
         rs.close();
         st.close();
