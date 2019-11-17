@@ -246,6 +246,7 @@ public class TestCRUD {
             for(Map.Entry<byte[], NavigableMap<byte[], NavigableMap<Long, byte[]>>> entry : map.entrySet()){
                 //得到列族
                 String f = Bytes.toString(entry.getKey());
+
                 Map<byte[], NavigableMap<Long, byte[]>> colDataMap = entry.getValue();
                 for(Map.Entry<byte[], NavigableMap<Long, byte[]>> ets : colDataMap.entrySet() ){
                     String c = Bytes.toString(ets.getKey());
