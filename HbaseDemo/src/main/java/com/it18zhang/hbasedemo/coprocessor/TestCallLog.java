@@ -7,6 +7,7 @@ import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
+import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
@@ -43,7 +44,7 @@ public class TestCallLog {
         String rowkey = regNo + "," + callerId + "," + callTime + "," + "0," + calleeId + "," + durStr;
         byte[] rowid = Bytes.toBytes(rowkey);
         Put put = new Put(rowid);
-        put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("callerPos"),Bytes.toBytes("河北"));
+        put.addColumn(Bytes.toBytes("f1"), Bytes.toBytes("callerPos"),Bytes.toBytes("河北"));
         put.addColumn(Bytes.toBytes("f1"),Bytes.toBytes("calleePos"),Bytes.toBytes("河南"));
         //执行插入
         table.put(put);
