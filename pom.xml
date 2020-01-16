@@ -12,7 +12,7 @@
         <module>hadoop-learn</module>
         <module>AvroDemo</module>
         <module>HbaseDemo</module>
-        <module>KafkaDemo</module>
+        <module>StormLearn</module>
     </modules>
     <packaging>pom</packaging>
     <build>

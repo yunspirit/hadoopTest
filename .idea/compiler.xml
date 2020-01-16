@@ -9,9 +9,9 @@
         <module name="HbaseDemo" />
         <module name="JdbcDemo" />
         <module name="AvroDemo" />
+        <module name="StormLearn" />
         <module name="HiveDemo" />
         <module name="hadoop-learn" />
-        <module name="kafkademo1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +23,7 @@
       <module name="HiveDemo" target="1.5" />
       <module name="JdbcDemo" target="1.5" />
       <module name="kafkademo1" target="1.8" />
+      <module name="StormLearn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

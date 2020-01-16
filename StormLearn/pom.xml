@@ -10,24 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.it18zhang</groupId>
-    <artifactId>kafkademo</artifactId>
+    <artifactId>StormLearn</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
-
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
         <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-core</artifactId>
+            <version>1.2.3</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka_2.12</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
