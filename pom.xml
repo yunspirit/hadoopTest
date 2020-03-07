@@ -13,6 +13,7 @@
         <module>AvroDemo</module>
         <module>HbaseDemo</module>
         <module>StormLearn</module>
+        <module>SparkDemo1</module>
     </modules>
     <packaging>pom</packaging>
     <build>

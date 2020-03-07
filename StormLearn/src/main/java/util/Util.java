@@ -24,6 +24,13 @@ public class Util {
     /**
      * 返回进程pid
      */
+
+    public static void main(String[] args) throws UnknownHostException {
+        System.out.println(InetAddress.getLocalHost().getHostName());
+        System.out.println(ManagementFactory.getRuntimeMXBean().getName());
+        System.out.println(Thread.currentThread().getName());
+        sendToClient("haha","woshishui",8888);
+    }
     public static String getPID(){
         String info = ManagementFactory.getRuntimeMXBean().getName();
         return info.split("@")[0] ;
@@ -51,7 +58,7 @@ public class Util {
     public static void sendToClient(Object obj,String msg,int port ){
         try {
             String info = info(obj,msg);
-            Socket sock = new Socket("s201", port);
+            Socket sock = new Socket("localhost", port);
             OutputStream os = sock.getOutputStream();
             os.write((info + "\r\n").getBytes());
             os.flush();

@@ -54,6 +54,8 @@ public class WordCountSpout implements IRichSpout{
         Util.sendToClient(this, "nextTuple()",7777);
         String line = states.get(r.nextInt(4));
         collector.emit(new Values(line));
+
+//        增加睡眠时间，不然产生速度太快
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {

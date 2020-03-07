@@ -2,32 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/CallLogCounterBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/CallLogCreatorBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/CallLogSpout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/util/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/wc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/wc/CountBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/wc/SplitBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StormLearn/src/main/java/wc/WordCountSpout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_storm_storm_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_clojure_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ring_cors_ring_cors_0_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/SparkDemo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/CoalesceDemo1(1).scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/CogoupDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/DataLeanDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/DistinctDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/FirstDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/GroupByKeyDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/IntersectionDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/JoinDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/MapDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/PipeDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SampleDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/UnionDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/WordCountScala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/aggregateByKeyDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/cartesianDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/WordCountJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StormLearn/StormLearn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HdfsDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HdfsDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaDemo/KafkaDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaDemo/kafkademo1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaDemo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/test/java/com/it18zhang/kafkademo/test/TestProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StormLearn/src/main/java/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/StormLearn/src/main/java/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StormLearn/src/main/java/wc/WordCountSpout.java" beforeDir="false" afterPath="$PROJECT_DIR$/StormLearn/src/main/java/wc/WordCountSpout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,25 +96,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553429834314" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/StormLearn/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SparkDemo1/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3816092" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/StormDemo" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AAAIdea\hadoopTest\SparkDemo1\src" />
       <recent name="C:\AAAIdea\hadoopTest\StormLearn\src\main\java" />
       <recent name="C:\AAAIdea\hadoopTest\StormDemo\target\classes\com\it18zhang\stormdemo" />
       <recent name="C:\AAAIdea\hadoopTest\StormDemo" />
       <recent name="C:\AAAIdea\hadoopTest" />
-      <recent name="C:\AAAIdea\hadoopTest\HbaseDemo\src\main" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.Util (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wc.App" />
       <module name="StormLearn" />
@@ -136,6 +149,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.it18zhang.hivedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Util (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.Util" />
+      <module name="StormLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +203,13 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Util" />
-      <item itemvalue="JUnit.TestCRUD.formatNum" />
       <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.Util (1)" />
+      <item itemvalue="JUnit.TestCRUD.formatNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Util (1)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TestCRUD.formatNum" />
@@ -246,7 +274,11 @@
       <workItem from="1578410297210" duration="3167000" />
       <workItem from="1578413554100" duration="775000" />
       <workItem from="1578930898707" duration="2728000" />
-      <workItem from="1579188439960" duration="2372000" />
+      <workItem from="1579188439960" duration="2617000" />
+      <workItem from="1579266257983" duration="2310000" />
+      <workItem from="1583509831294" duration="880000" />
+      <workItem from="1583576298428" duration="187000" />
+      <workItem from="1583576502922" duration="2070000" />
     </task>
     <servers />
   </component>
@@ -271,6 +303,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StormLearn/src/main/java/wc/WordCountSpout.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
