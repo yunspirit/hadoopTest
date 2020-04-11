@@ -13,6 +13,15 @@ object aggregateByKeyDemo1 {
         val rdd2 = rdd1.flatMap(_.split(" "))
         val rdd3 = rdd2.map((_,1))
 
-        //rdd3.aggregateByKey(0)(((a:Int,b:Int)=>0,(c:Int,c:Int):Int=>d + c))
+        def seq(a: Int, b: Int): Int = {
+            math.max(a, b)
+        }
+
+        def comb(a: Int, b: Int): Int = {
+            a + b
+        }
+        rdd3.aggregateByKey(3)(seq, (a:Int,b:Int)=>{
+            a + b
+        })
     }
 }

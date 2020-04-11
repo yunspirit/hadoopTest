@@ -1,4 +1,4 @@
-package com.it18zhang.spark.java ;
+package com.it18zhang.spark.java;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;

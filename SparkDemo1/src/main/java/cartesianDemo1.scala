@@ -9,8 +9,10 @@ object cartesianDemo1 {
         conf.setAppName("WordCountScala")
         conf.setMaster("local[4]") ;
         val sc = new SparkContext(conf)
-        val rdd1 = sc.parallelize(Array("tom","tomas","tomasle","tomson"))
-        val rdd2 = sc.parallelize(Array("1234","3456","5678","7890"))
+        var d1 = Array("tom","tomas","tomasle","tomson")
+        var d2 = Array("1234","3456","5678","7890")
+        val rdd1 = sc.parallelize(d1)
+        val rdd2 = sc.parallelize(d2)
 
         val rdd = rdd1.cartesian(rdd2);
         rdd.collect().foreach(t=>println(t))

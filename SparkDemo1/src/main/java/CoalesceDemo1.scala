@@ -26,4 +26,6 @@ object CoalesceDemo1 {
         val rdd3 = rdd2.map((_,1))
         println("rdd3' parti : " + rdd3.partitions.length)
     }
+
+
 }
