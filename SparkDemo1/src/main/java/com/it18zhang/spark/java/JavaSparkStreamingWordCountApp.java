@@ -83,6 +83,7 @@ public class JavaSparkStreamingWordCountApp {
             }
         } ,new Duration(6*1000) ,new Duration(4*1000));
 
+        // 统计window内元素个数
         JavaDStream<Long> countDs3 = wordsDS.countByWindow(new Duration(6*1000) ,new Duration(4*1000));
 
 

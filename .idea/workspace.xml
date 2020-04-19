@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountWindowsApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountApp.java" afterDir="false" />
     </list>
@@ -71,7 +70,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3816092" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/StormDemo" />
   </component>
   <component name="RecentsManager">
@@ -227,7 +226,7 @@
       <workItem from="1586609524745" duration="2456000" />
       <workItem from="1586790218035" duration="2857000" />
       <workItem from="1586870362141" duration="1815000" />
-      <workItem from="1587221733140" duration="10885000" />
+      <workItem from="1587221733140" duration="13148000" />
     </task>
     <servers />
   </component>
