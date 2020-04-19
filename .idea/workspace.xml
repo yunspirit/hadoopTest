@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountWindowsApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/PersistScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/PersistScala.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkStreamingDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkStreamingDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SQLJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SQLJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,25 +65,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553429834314" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SparkDemoFirst" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3816092" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/StormDemo" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AAAIdea\hadoopTest\SparkDemo1\src\main\java\com\it18zhang\spark\java" />
       <recent name="C:\AAAIdea\hadoopTest\SparkDemoFirst" />
       <recent name="C:\AAAIdea\hadoopTest\SparkDemoFirst\src" />
       <recent name="C:\AAAIdea\hadoopTest\SparkDemo1\src\main\java" />
       <recent name="C:\AAAIdea\hadoopTest\JdbcDemo\src\main\java" />
-      <recent name="C:\AAAIdea\hadoopTest\SparkDemo1\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,7 +227,7 @@
       <workItem from="1586609524745" duration="2456000" />
       <workItem from="1586790218035" duration="2857000" />
       <workItem from="1586870362141" duration="1815000" />
-      <workItem from="1587221733140" duration="1945000" />
+      <workItem from="1587221733140" duration="10885000" />
     </task>
     <servers />
   </component>

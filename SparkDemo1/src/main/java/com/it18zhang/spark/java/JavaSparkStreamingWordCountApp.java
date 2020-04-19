@@ -5,6 +5,7 @@ import org.apache.spark.api.java.Optional;
 import org.apache.spark.api.java.function.FlatMapFunction;
 import org.apache.spark.api.java.function.Function2;
 import org.apache.spark.api.java.function.PairFunction;
+import org.apache.spark.streaming.Duration;
 import org.apache.spark.streaming.Seconds;
 import org.apache.spark.streaming.api.java.JavaDStream;
 import org.apache.spark.streaming.api.java.JavaPairDStream;
@@ -50,6 +51,7 @@ public class JavaSparkStreamingWordCountApp {
             }
         }) ;
 
+//        作用：上一批次的结果作为这一批次的基础进行累加
         JavaPairDStream<String,Integer> jps = pairDS.updateStateByKey(new Function2<List<Integer>, Optional<Integer>, Optional<Integer>>() {
             public Optional<Integer> call(List<Integer> v1, Optional<Integer> v2) throws Exception {
                 Integer newCount = v2.isPresent() ? v2.get() : 0  ;
@@ -73,9 +75,21 @@ public class JavaSparkStreamingWordCountApp {
         });
 
 
+        //按照key和window聚合
+        JavaPairDStream<String ,Integer> countDs2 = pairDS.reduceByKeyAndWindow(new Function2<Integer, Integer, Integer>() {
+            @Override
+            public Integer call(Integer v1, Integer v2) throws Exception {
+                return v1+v2;
+            }
+        } ,new Duration(6*1000) ,new Duration(4*1000));
+
+        JavaDStream<Long> countDs3 = wordsDS.countByWindow(new Duration(6*1000) ,new Duration(4*1000));
+
+
         //打印
         countDS.print();
-
+        countDs2.print();
+        countDs3.print();
         jsc.start();
 
         jsc.awaitTermination();
