@@ -11,7 +11,7 @@ object SparkStreamingDemo {
         //local[n] n > 1
         val conf = new SparkConf().setMaster("local[2]").setAppName("NetworkWordCount")
         //创建Spark流上下文,批次时长是1s
-        val ssc = new StreamingContext(conf, Seconds(5))
+        val ssc = new StreamingContext(conf, Seconds(1))
 
         //创建socket文本流
         val lines = ssc.socketTextStream("localhost", 9999)

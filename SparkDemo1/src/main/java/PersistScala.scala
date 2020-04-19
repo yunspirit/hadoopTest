@@ -25,6 +25,7 @@ object PersistScala {
         println(rdd2.reduce(_ + _))
 
 
+        //向201发送消息
         var str:String = java.net.InetAddress.getLocalHost.getHostAddress ;
         str = str + " : " + Thread.currentThread().getName + "\r\n";
 

@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml" filepath="$PROJECT_DIR$/HiveDemo/HiveDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JdbcDemo/JdbcDemo.iml" filepath="$PROJECT_DIR$/JdbcDemo/JdbcDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SparkDemo1/SparkDemo1.iml" filepath="$PROJECT_DIR$/SparkDemo1/SparkDemo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SparkDemoFirst/SparkDemoFirst.iml" filepath="$PROJECT_DIR$/SparkDemoFirst/SparkDemoFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/StormLearn/StormLearn.iml" filepath="$PROJECT_DIR$/StormLearn/StormLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" filepath="$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" />
     </modules>

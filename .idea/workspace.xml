@@ -2,91 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_chuusai_shapeless_2_11_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_core_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_rwl_jtransforms_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_f2j_arpack_combined_all_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_10_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_0_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_local_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_model_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_schema_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_2_11_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_11_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_2_11_0_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_macros_2_11_0_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/PersistScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkStreamingDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/StartModeScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/TestYUnqian.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/KafkaSparkStreamingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/PoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SQLHiveJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SQLJDBCJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SQLJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/TestProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/ThriftServerClientJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/CoalesceDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/CogoupDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/DataLeanDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/DistinctDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/FirstDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/GroupByKeyDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/IntersectionDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/JoinDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/MapDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/PersistScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/PipeDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/SampleDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/SparkStreamingDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/StartModeScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/TestYUnqian.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/UnionDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/WordCountScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/aggregateByKeyDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/cartesianDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/JavaSparkStreamingWordCountApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/KafkaSparkStreamingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/PoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/SQLHiveJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/SQLJDBCJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/SQLJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/TestProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/ThriftServerClientJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemoFirst/src/main/java/com/it18zhang/spark/java/WordCountJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/SparkDemo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/SparkDemo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/CoalesceDemo1(1).scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/CoalesceDemo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/PipeDemo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/PipeDemo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/WordCountScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/WordCountScala.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/aggregateByKeyDemo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/aggregateByKeyDemo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/cartesianDemo1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/cartesianDemo1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/WordCountJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/WordCountJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/PersistScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/PersistScala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkStreamingDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkStreamingDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SQLJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SQLJava.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -305,7 +225,11 @@
       <workItem from="1586017056360" duration="8000" />
       <workItem from="1586442402932" duration="5327000" />
       <workItem from="1586587945990" duration="3986000" />
-      <workItem from="1586592296001" duration="1080000" />
+      <workItem from="1586592296001" duration="2289000" />
+      <workItem from="1586609524745" duration="2456000" />
+      <workItem from="1586790218035" duration="2857000" />
+      <workItem from="1586870362141" duration="1815000" />
+      <workItem from="1587221733140" duration="1945000" />
     </task>
     <servers />
   </component>
