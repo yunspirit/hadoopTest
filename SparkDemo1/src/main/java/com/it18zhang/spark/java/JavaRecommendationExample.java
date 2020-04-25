@@ -1,8 +1,6 @@
-
 package com.it18zhang.spark.java;
 
 import scala.Tuple2;
-
 import org.apache.spark.api.java.*;
 import org.apache.spark.api.java.function.Function;
 import org.apache.spark.mllib.recommendation.ALS;

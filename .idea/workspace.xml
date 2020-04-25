@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkMLDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkMLLogicRegressWineClassifyDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkMLMovieRecommDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkMLRecommDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/SparkMLSpamFilterDemo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/JavaRecommendationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SparkDemo1/src/main/java/com/it18zhang/spark/java/SparkMLDemoJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/mypython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/FindDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/InsertDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/MySQLDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/OOPDemo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/TCPClientSocketDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/TCPServerSocketDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/ThreadDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/ThreadDemo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/UDPReceiver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/UDPSender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/mypython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypython/src/urldemo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/SparkDemo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/SparkDemo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkDemo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SparkDemo1/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +231,8 @@
       <workItem from="1587569737048" duration="3046000" />
       <workItem from="1587574889664" duration="1105000" />
       <workItem from="1587655991153" duration="1478000" />
-      <workItem from="1587736321792" duration="9523000" />
+      <workItem from="1587736321792" duration="10157000" />
+      <workItem from="1587796338720" duration="613000" />
     </task>
     <servers />
   </component>
