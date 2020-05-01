@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HbaseDemo" />
         <module name="JdbcDemo" />
-        <module name="AvroDemo" />
-        <module name="StormLearn" />
         <module name="SparkDemo1" />
+        <module name="StormLearn" />
+        <module name="AvroDemo" />
         <module name="HiveDemo" />
+        <module name="UserPortraitModule" />
         <module name="hadoop-learn" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="kafkademo1" target="1.8" />
       <module name="SparkDemo1" target="1.8" />
       <module name="StormLearn" target="1.8" />
+      <module name="UserPortraitModule" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

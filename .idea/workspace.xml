@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6c3de6-917b-4abf-b11e-02e14d7a7832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JsonLogProcessModel/JsonLogProcessModel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonLogProcessModel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonLogProcessModel/src/main/java/TagGenerator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonLogProcessModel/src/main/java/com/it18zhang/taggen/ReviewTags(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonLogProcessModel/src/main/java/com/it18zhang/taggen/ReviewTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonLogProcessModel/src/main/java/com/it18zhang/taggen/TagGeneratrorJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonLogProcessModel/src/main/java/com/it18zhang/taggen/Tuple2Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/UserPortraitModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/com/it18zhang/portrait/Base64Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/com/it18zhang/portrait/Portrait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/userdraw/UserDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/userdrawmr/UserDrawMapReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/userdrawmr/UserDrawMapReduce2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/userdrawputinhbase/UserDrawPutInHbaseMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/userdrawputinhbase/UserDrawPutInHbaseReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/util/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/util/LoadHdfsTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/util/ReadHdfsFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/java/util/TextArrayWritable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserPortraitModule/src/main/resources/UserDraw.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,22 +87,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553429834314" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mypython/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JsonLogProcessModel/src/main/java/com/it18zhang/taggen" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3816092" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/StormDemo" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/UserPortraitModule/src" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AAAIdea\hadoopTest\JsonLogProcessModel\src\main\java\com\it18zhang\taggen" />
+      <recent name="C:\AAAIdea\hadoopTest\JsonLogProcessModel\src\main\java" />
+      <recent name="C:\AAAIdea\hadoopTest\UserPortraitModule\src\main\resources" />
+      <recent name="C:\AAAIdea\hadoopTest\UserPortraitModule\src\main\java" />
       <recent name="C:\AAAIdea\hadoopTest\mypython\src" />
-      <recent name="C:\AAAIdea\hadoopTest\SparkDemo1\src\main\java" />
-      <recent name="C:\AAAIdea\hadoopTest\SparkDemo1\src\main\java\com\it18zhang\spark\java" />
-      <recent name="C:\AAAIdea\hadoopTest\SparkDemoFirst" />
-      <recent name="C:\AAAIdea\hadoopTest\SparkDemoFirst\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -232,7 +256,11 @@
       <workItem from="1587574889664" duration="1105000" />
       <workItem from="1587655991153" duration="1478000" />
       <workItem from="1587736321792" duration="10157000" />
-      <workItem from="1587796338720" duration="613000" />
+      <workItem from="1587796338720" duration="1300000" />
+      <workItem from="1588322080432" duration="1233000" />
+      <workItem from="1588323342773" duration="79000" />
+      <workItem from="1588323447929" duration="218000" />
+      <workItem from="1588323691307" duration="2883000" />
     </task>
     <servers />
   </component>

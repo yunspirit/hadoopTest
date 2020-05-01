@@ -14,6 +14,8 @@
         <module>HbaseDemo</module>
         <module>StormLearn</module>
         <module>SparkDemo1</module>
+        <module>UserPortraitModule</module>
+        <module>JsonLogProcessModel</module>
     </modules>
     <packaging>pom</packaging>
     <build>
