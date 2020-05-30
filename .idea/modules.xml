@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/UserPortraitModule/UserPortraitModule.iml" filepath="$PROJECT_DIR$/UserPortraitModule/UserPortraitModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" filepath="$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/mypython/mypython.iml" filepath="$PROJECT_DIR$/mypython/mypython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-learn/niolearn.iml" filepath="$PROJECT_DIR$/nio-learn/niolearn.iml" />
     </modules>
   </component>
 </project>

@@ -16,6 +16,7 @@
         <module>SparkDemo1</module>
         <module>UserPortraitModule</module>
         <module>JsonLogProcessModel</module>
+        <module>nio-learn</module>
     </modules>
     <packaging>pom</packaging>
     <build>

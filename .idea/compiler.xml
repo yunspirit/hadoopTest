@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HbaseDemo" />
-        <module name="JdbcDemo" />
+        <module name="JsonLogProcessModel" />
         <module name="SparkDemo1" />
         <module name="StormLearn" />
         <module name="AvroDemo" />
         <module name="HiveDemo" />
+        <module name="niolearn" />
+        <module name="JdbcDemo" />
         <module name="UserPortraitModule" />
         <module name="hadoop-learn" />
       </profile>
@@ -24,7 +26,9 @@
       <module name="HdfsDemo" target="1.8" />
       <module name="HiveDemo" target="1.5" />
       <module name="JdbcDemo" target="1.5" />
+      <module name="JsonLogProcessModel" target="1.5" />
       <module name="kafkademo1" target="1.8" />
+      <module name="niolearn" target="1.5" />
       <module name="SparkDemo1" target="1.8" />
       <module name="StormLearn" target="1.8" />
       <module name="UserPortraitModule" target="1.5" />
